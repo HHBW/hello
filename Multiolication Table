@@ -1,0 +1,12 @@
+num_multipliter = 1
+num_multiplicand = 1
+while num_multiplicand <=9:
+    if num_multipliter ==num_multiplicand:
+        print("%d* %d ="%(num_multipliter,num_multiplicand),num_multipliter*num_multiplicand)
+        num_multiplicand+=1
+        num_multipliter=1
+        
+    else:
+        while num_multipliter !=num_multiplicand:
+            print("%d * %d ="%(num_multipliter,num_multiplicand),num_multipliter*num_multiplicand,end=" ")
+            num_multipliter+=1
